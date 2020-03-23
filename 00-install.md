@@ -16,3 +16,26 @@
 cd ~/src/github.com/PacktPublishing
 jupyter notebook
 ```
+
+## New Notebook
+* Select Python 3
+* Change Name of notebook
+* Enter python code in cell then Shift/Enter to run
+
+### Imports
+```python
+import numpy as np
+import pandas as pd
+```
+### Sample commands
+```python
+arr1 = np.random.rand(10)
+arr1
+```
+
+```python
+ser1 = pd.Series(arr1)
+ser1
+```
+
+
