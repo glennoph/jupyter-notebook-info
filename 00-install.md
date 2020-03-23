@@ -38,4 +38,9 @@ ser1 = pd.Series(arr1)
 ser1
 ```
 
-
+### Plot 
+```python
+%matplotlib inline
+ser1.plot()
+```
+* nb add %matplotlib inline to imports.
